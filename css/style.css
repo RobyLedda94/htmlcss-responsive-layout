@@ -11,27 +11,65 @@ header{
 }
 
 
-
-/* Styling classes */
-
-.content{
-    width: 100%;
-    height: 200px;
-    background-color: red;
-    border: 1px solid black;    
+.header-col{
+    width: 50%;
 }
+
 
 
 
 
 /* Layout classes */
 
+.container{
+    width: 100%;  
+}
 
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
+.col-33{
+    width: 100%;
+}
+
+.col-40{
+    width: 100%;
+}
+
 .col-50{
-    width: 50%;
+    width: 100%;
+}
+
+.col-60{
+    width: 100%;
+}
+
+.col-66{
+    width: 100%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+/* Utility class */
+
+.float-end{
+    float: right;
+}
+
+
+
+
+/* Styling classes */
+
+.content{
+    width: 100%;
+    margin: 5px 0px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;    
 }
