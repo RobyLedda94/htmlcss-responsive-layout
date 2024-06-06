@@ -6,13 +6,15 @@
 }
 
 header{
-    padding: 15px 0px;
+    padding: 15px;
     background-color: #3985fd;
+    color: #fff;
 }
 
 footer{
-    padding: 15px 0px;
+    padding: 15px;
     background-color: black;
+    color: #fff;
 }
 
 
@@ -35,29 +37,10 @@ footer{
     flex-wrap: wrap;
 }
 
-.col-33{
+.col-33, .col-40, .col-50, .col-60, .col-66, .col-100{
     width: 100%;
 }
 
-.col-40{
-    width: 100%;
-}
-
-.col-50{
-    width: 100%;
-}
-
-.col-60{
-    width: 100%;
-}
-
-.col-66{
-    width: 100%;
-}
-
-.col-100{
-    width: 100%;
-}
 
 
 /* Utility class */
@@ -71,10 +54,42 @@ footer{
 
 /* Styling classes */
 
+header .content{
+    height: 80px;
+}
+
 .content{
     width: 100%;
-    margin: 5px 0px;
+    margin: 10px 0;
     height: 200px;
     background-color: red;
     border: 1px solid black;    
+}
+
+#bg-violet{
+    background-color:#9892e4;
+}
+
+
+
+/* Media query */
+
+
+@media screen and (min-width: 768px) {
+    .col-66{
+        width: calc(100% / 3 * 2);
+    }
+
+    .col-60, .col-40{
+        width: calc(100% / 2);
+    }
+
+    .col-33{
+        width: calc(100% / 3);
+    }
+
+    .col-33.col-tablet{
+        width: calc(100% /2);
+    }
+
 }
