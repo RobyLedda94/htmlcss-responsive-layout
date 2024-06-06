@@ -105,7 +105,7 @@ header .content{
 
 #bg-violet{
     background-color:#9892e4;
-}
+} 
 
 .bg-blue{
     background-color: #bbddff;
@@ -211,6 +211,9 @@ header .content{
     margin: 25px 0px;
 }
 
+
+
+
 .content-left{
     width: 200px;
     height: 200px;
@@ -218,6 +221,10 @@ header .content{
     background-size: cover;
     background-position: center;
     display: inline-block;
+}
+
+.content-right{
+    margin-left: 20px;
 }
 
 
@@ -233,9 +240,21 @@ header .content{
     background-image: url(../img/testimonial3.jpg);
 }
 
-.content-right{
-    display: inline-block;
+
+.title.best-of-working{
+    font-size: 25px;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
 }
+
+.text-violet{
+    color: #9892e4;
+}
+
+
+
+
 
 
 
