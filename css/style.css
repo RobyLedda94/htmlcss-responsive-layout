@@ -10,6 +10,11 @@ header{
     background-color: #3985fd;
 }
 
+footer{
+    padding: 15px 0px;
+    background-color: black;
+}
+
 
 .header-col{
     width: 50%;
