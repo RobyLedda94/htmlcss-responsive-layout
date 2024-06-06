@@ -176,6 +176,20 @@ header .content{
     color: #3985fd;   
 }
 
+
+.card-description-white{
+    color: #fff;
+}
+
+.card-description-white > h2{
+    margin: 30px 0;
+}
+
+.card-description > h3{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
 .planning, .planning-two{
     width: 100%;
 }
@@ -188,6 +202,11 @@ header .content{
     background-color: #9892e4;
     padding: 20px 25px;
     border-radius: 50%;
+}
+
+.introduction-testimonials > h2{
+    color: #9892e4;
+    margin: 25px 0px;
 }
 
 
