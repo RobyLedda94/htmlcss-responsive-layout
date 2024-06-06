@@ -112,15 +112,19 @@ header .content{
     background-color: #fff;
 }
 
-.radius{
-    border-radius: 10px;
-}
-
 
 .content{
     width: 100%;
     padding: 10px 10px 0px 10px;
     /* height: 450px;   */
+}
+
+.padding-blue-cards{
+    padding: 33px;
+}
+
+.radius{
+    border-radius: 10px;
 }
 
 
@@ -155,6 +159,11 @@ header .content{
 
 .phone{
     width: 100%;
+}
+
+.icon{
+    font-size: 60px;
+    color: #3985fd;   
 }
 
 
