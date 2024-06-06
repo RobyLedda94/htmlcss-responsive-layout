@@ -21,9 +21,6 @@ footer{
 }
 
 
-.header-col{
-    width: 50%;
-}
 
 
 
@@ -41,9 +38,15 @@ footer{
     flex-wrap: wrap;
 }
 
+.header-col{
+    width: 50%;
+    padding: 15px;
+}
+
+
 .col-33, .col-40, .col-50, .col-60, .col-66, .col-100{
     width: 100%;
-    padding: 10px;
+    padding: 15px;
 }
 
 
@@ -76,7 +79,7 @@ header .content{
 
 .content{
     width: 100%;
-    height: 200px;    
+    height: 450px;    
 }
 
 #bg-violet{
@@ -122,7 +125,7 @@ header .content{
     }
 
     .col-33.col-tablet{
-        width: calc(100% /2);
+        width: calc(100% / 2);
     }
 
 }
