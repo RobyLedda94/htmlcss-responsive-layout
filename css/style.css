@@ -238,7 +238,8 @@ footer{
 }
 
 .content.bg-white.radius > p{
-    color: #4f4f4f;
+    color:#737272;
+    line-height: 30px;
 }
 
 .text-violet{
@@ -276,6 +277,7 @@ footer{
 
 .content.text-about-us p{
     padding: 30px 0px;
+    line-height: 35px;
 }
 
 .about-us{
@@ -288,13 +290,14 @@ footer{
 }
 
 .about-us-text-violet > p{
+    padding: 20px 0px;
     font-weight: 900;
     font-size: 30px;
     color: #9892e4;
 }
 
 .btn-violet.large{
-    width: 50%;
+    width: 60%;
 }
 
 .btn-violet.large > .fa-brands.fa-linkedin{
