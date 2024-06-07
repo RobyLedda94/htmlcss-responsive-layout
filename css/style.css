@@ -496,7 +496,9 @@ footer{
         padding: 40px 200px;
     }
 
-  
+    .height-tablet{
+        height: 100%;
+    }
 
 
 }
