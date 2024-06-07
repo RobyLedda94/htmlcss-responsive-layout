@@ -237,9 +237,17 @@ header .content{
     border-radius: 50%;
 }
 
-.descriprion{
+.description{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.description > .name-description{
+    font-size: 25px;
+    font-weight: 900;
     padding-top: 20px;
 }
+
 
 
     
@@ -298,8 +306,9 @@ header .content{
         display: flex;
     }
 
-    .descriprion{
-        padding-top: 50px;
+    .description{
+        padding: 40px 0px 0px 20px;
+        text-align: start;
     }
 
 
@@ -335,13 +344,16 @@ header .content{
         display: flex;
     }
 
-    .descriprion{
-        padding-top: 50px;
-    }
 
     .bg-violet.radius.flex{
         display: flex;
     }
+
+    .description{
+        padding: 40px 0px 0px 20px;
+        text-align: start;
+    }
+
 
 
 }
