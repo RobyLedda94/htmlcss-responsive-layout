@@ -261,6 +261,14 @@ footer{
     padding-top: 20px;
 }
 
+.content-right.text-center.description > p{
+    line-height: 25px;
+}
+
+/* .content-right.text-center.description > p::before{
+    content: ;
+} */
+
 
 
 
