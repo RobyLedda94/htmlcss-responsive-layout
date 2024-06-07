@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Kanit", sans-serif;
     /* font-size: 20px; */
 }
 
@@ -325,12 +325,12 @@ footer{
     position: relative;
 }
 
-/* .about-us > .fa-solid.fa-quote-left{
+
+.about-us > .fa-solid.fa-quote-left{
     position: absolute;
-    right: 315px;
     font-size: 35px;
     color: #9892e4;
-} */
+} 
 
 .about-us > img{
     width: 45%;
@@ -486,6 +486,8 @@ footer{
     .part-footer > .top-text{
         padding: 40px 200px;
     }
+
+  
 
 
 }
