@@ -122,7 +122,7 @@ header .content{
 
 .content{
     width: 100%;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     /* height: 450px;   */
 }
 
@@ -132,14 +132,14 @@ header .content{
 
 
 .header-btn{
-    padding: 5px;
+    padding: 7px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 .padding-blue-cards{
-    padding: 33px;
+    padding: 38px;
 }
 
 .padding{
@@ -168,6 +168,7 @@ header .content{
 .blue-btn > .fa-brands.fa-apple {
     margin-right: 5px;
 }
+
 
 .phone{
     width: 100%;
@@ -214,35 +215,11 @@ header .content{
 
 
 
-.content-left{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-}
 
-.content-right{
-    margin-left: 20px;
-}
-
-
-.testimonial-one{
-    background-image: url(../img/testimonial1.jpg);
-}
-
-.testimonial-two{
-    background-image: url(../img/testimonial2.jpg);
-}
-
-.testimonial-tree{
-    background-image: url(../img/testimonial3.jpg);
-}
 
 
 .title.best-of-working{
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     padding: 25px 0;
     text-align: center;
@@ -252,6 +229,20 @@ header .content{
     color: #9892e4;
 }
 
+
+
+
+.content-left > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.descriprion{
+    padding-top: 20px;
+}
+
+
+    
 
 
 
@@ -303,6 +294,15 @@ header .content{
         width: 300px;
     }
 
+    .bg-violet.radius.flex{
+        display: flex;
+    }
+
+    .descriprion{
+        padding-top: 50px;
+    }
+
+
 }
 
 
@@ -332,6 +332,14 @@ header .content{
     }
 
     .display-flex{
+        display: flex;
+    }
+
+    .descriprion{
+        padding-top: 50px;
+    }
+
+    .bg-violet.radius.flex{
         display: flex;
     }
 
